@@ -1,6 +1,6 @@
 include("./nnqs_gs_rbm.jl")
 # the GPU card:
-device!(1)
+device!(0)
 
 Lx = 10
 Ly = 1
