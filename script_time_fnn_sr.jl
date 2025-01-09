@@ -18,7 +18,7 @@ include("./nnqs_time_sampling.jl")
 include("./nnqs_time_optimization.jl")
 include("./nnqs_measurement.jl")
 include("./nnqs_main.jl")
-device!(1)
+#device!(1)
 
 # file_time = "/home/users/sutd/1004957/code/nn_time_gpu.jl"
 # include(file_time)
