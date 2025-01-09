@@ -19,7 +19,7 @@ include("./nnqs_time_optimization.jl")
 include("./nnqs_measurement.jl")
 include("./nnqs_main_SOO.jl")
 
-device!(1)
+#device!(1)
 t0 = 0.0
 tf = 2.0 
 dt = 0.1 
